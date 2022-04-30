@@ -175,6 +175,24 @@ solving and coding to achieve pass rates.</li>
 
 
 <div id="footer">
-  <h4 id="name">Jyothyraj</h4></div>
+  <h4 id="name">Jyothyraj</h4>
+  <script>
+        const AWS = require('aws-sdk')
+        const docClient = new AWS.DynamoDB.DocumentClient()
+        var params = {
+        TableName: 'Resume_hit',
+        Key: {
+          'hash_key': 'count'
+        },
+        }
+        docClient.query(params, function (err, data) {
+      if (err) console.log(err)
+      else document.write(data);
+    })
+
+
+
+  </script>
+  </div>
   </body>
 </html>
