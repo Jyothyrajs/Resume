@@ -128,5 +128,6 @@ hr {
     width: 100%;
     margin-left: 60px;
     justify-content: center;
+    text-align: justify;
   }
 }
