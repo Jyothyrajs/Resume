@@ -15,7 +15,7 @@ div {
 #header {
   height: 30px;
   width: 100%;
-  background-color: #1D566F;
+  background-color: #30B3CB;
   text-decoration-color: #FFF;
   font-size: 13;
   z-index: 1;
@@ -44,7 +44,7 @@ div {
 #footer {
   height: 50px;
   width: 100%;
-  background-color: #686DB5;
+  background-color: #30B3CB;
   clear: both;
   position: relative;
 }
@@ -78,11 +78,18 @@ div {
   margin-top: 6px;
   margin-left: 5px;
   height: 1000px;
+  text-align: justify;
 }
 
-p,
+p
+{
+
+  text-align: justify;
+
+}
 li {
   font-family: 'Cormorant Garamond';
+
 }
 
 .head {
